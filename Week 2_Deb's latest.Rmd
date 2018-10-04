@@ -1,0 +1,14 @@
+---
+title: "Deb's Taj Mahal"
+author: "Debashis Gogoi"
+date: "October 3, 2018"
+output: html_document
+---
+h5("October 4th, 2018")
+mymap
+library(leaflet)
+mymap=leaflet() %>%
+mymap=addTiles() %>%
+mymap=setView(lng = 78.0419, lat = 27.1750, zoom = 15) %>%
+mymap=addMarkers(lng = 78.0419, lat = 27.1750, popup = "Taj Mahal, Agra, India")
+  
